@@ -1,10 +1,10 @@
-import Image from "next/image";
-
-
-const home = ()=>{
+import HadithPages from "@/Components/HadithPages";
+import Navbar from "@/Components/Navbar";
+const home = () => {
   return (
     <main>
-      this is home pages
+      <Navbar></Navbar>
+      <HadithPages></HadithPages>
     </main>
   )
 }

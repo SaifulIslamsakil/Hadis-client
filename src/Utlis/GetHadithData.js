@@ -1,10 +1,8 @@
 
 
 const GetHadithData = async (id) => {
-    
-    const res = await fetch(`http://localhost:5000/hadiths/${id}`)
+    const res = await fetch(`https://sqlite-database.vercel.app/hadiths/${id}`)
     const data = await res.json()
-    console.log(data)
     return data
 };
 

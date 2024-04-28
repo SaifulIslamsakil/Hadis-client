@@ -3,7 +3,6 @@ import Link from "next/link";
 
 const HadithPages = ({books}) => {
     const handleData = (id)=>{
-    //   alert(id)
     //   console.log(id)
     }
    

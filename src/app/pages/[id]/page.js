@@ -8,7 +8,6 @@ import { TbGridDots } from "react-icons/tb";
 const HadithChapter = async ({ params }) => {
     const booksData = await GetBooksDynamicData(params?.id)
     const chapterData = await GetChapterDynamicData(params?.id)
-    console.log(chapterData)
     return (
         <div className=" h-[80vh] bg-white w-[780px] rounded-2xl overflow-hidden">
             <div className=" w-full p-5 bg-slate-50">

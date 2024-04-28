@@ -8,15 +8,13 @@ import { MdReportGmailerrorred } from "react-icons/md";
 import { SlLogout } from "react-icons/sl";
 import GetHadithData from "@/Utlis/GetHadithData";
 
-
 const hadithContent = async ({params}) => {
         const hadithData = await GetHadithData(params?.id)
-        console.log(hadithData)
     return (
         <div className=" h-[80vh] w-[780px] rounded-2xl overflow-y-scroll space-y-5">
             <div>
                 <div className=" w-full p-5 bg-slate-50 border-b">
-                    <p className=" flex items-center gap-2"><TbGridDots /> <span> {`< ${"booksData?.book_name"}`}</span></p>
+                    <p className=" flex items-center gap-2"><TbGridDots /> <span> {`< ${" bukhari"}`}</span></p>
                 </div>
                 <div className=' bg-white flex justify-between p-5'>
                     <div className=" flex gap-5 items-center">
